@@ -10,6 +10,7 @@ export class AppComponent {
   public source:String = "";
   public destination:String = "";
   public journeyDate:Date= new Date();
+  title: any;
 
   
   public onSubmit(data:any)
